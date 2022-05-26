@@ -1,0 +1,444 @@
+Unnamed: 0,Numeric Variable,Label,Unnamed: 2,Categorical Variable,Unnamed: 4,Label.1
+0,custid,Customer ID,,region,1,Zone 1
+1,region,Geographic indicator,,,2,Zone 2
+2,townsize,Size of hometown,,,3,Zone 3
+3,gender,Gender,,,4,Zone 4
+4,age,Age in years,,,5,Zone 5
+5,agecat,Age category,,townsize,1,"> 250,000"
+6,birthmonth,Birth month,,,2,"50,000-249,999"
+7,ed,Years of education,,,3,"10,000-49,999"
+8,edcat,Level of education,,,4,"2,500-9,999"
+9,jobcat,Job category,,,5,"< 2,500"
+10,union,Union member,,gender,0,Male
+11,employ,Years with current employer,,,1,Female
+12,empcat,Years with current employer,,agecat,1,<18
+13,retire,Retired,,,2,18-24
+14,income,Household income in thousands,,,3,25-34
+15,lninc,Log-income,,,4,35-49
+16,inccat,Income category in thousands,,,5,50-64
+17,debtinc,Debt to income ratio (x100),,,6,>65
+18,creddebt,Credit card debt in thousands,,,9,No response
+19,lncreddebt,Log-credit card debt,,birthmonth,April,April
+20,othdebt,Other debt in thousands,,,August,August
+21,lnothdebt,Log-Other debt,,,December,December
+22,default,Ever defaulted on a bank loan,,,February,February
+23,jobsat,Job satisfaction,,,January,January
+24,marital,Marital status,,,July,July
+25,spoused,Spouse years of education,,,June,June
+26,spousedcat,Spouse level of education,,,March,March
+27,reside,Number of people in household,,,May,May
+28,pets,Number of pets owned,,,November,November
+29,pets_cats,Number of cats owned,,,October,October
+30,pets_dogs,Number of dogs owned,,,September,September
+31,pets_birds,Number of birds owned,,edcat,1,Did not complete high school
+32,pets_reptiles,Number of reptiles owned,,,2,High school degree
+33,pets_small,Number of small animals owned,,,3,Some college
+34,pets_saltfish,Number of saltwater fish owned,,,4,College degree
+35,pets_freshfish,Number of freshwater fish owned,,,5,Post-undergraduate degree
+36,homeown,Home ownership,,jobcat,1,Managerial and Professional
+37,hometype,Building type,,,2,Sales and Office
+38,address,Years at current address,,,3,Service
+39,addresscat,Years at current address,,,4,Agricultural and Natural Resources
+40,cars,Number of cars owned/leased,,,5,"Precision Production, Craft, Repair"
+41,carown,Primary vehicle lease/own,,,6,"Operation, Fabrication, General Labor"
+42,cartype,Primary vehicle domestic/import,,union,0,No
+43,carvalue,Primary vehicle sticker price,,,1,Yes
+44,carcatvalue,Primary vehicle price category,,employ,0,0
+45,carbought,Primary vehicle bought/leased within last year,,,1,1
+46,carbuy,Plan to purchase/lease vehicle within next year,,,2,2
+47,commute,Primary commute transportation,,,3,3
+48,commutecat,Commute category,,,4,4
+49,commutetime,Commute time in minutes,,,5,5
+50,commutecar,Used car to commute within last year,,,6,6
+51,commutemotorcycle,Used motorcycle to commute within last year,,,7,7
+52,commutecarpool,Used carpool to commute within last year,,,8,8
+53,commutebus,Used bus to commute within last year,,,9,9
+54,commuterail,Used train/subway to commute within last year,,,10,10
+55,commutepublic,Used other public transport to commute within last year,,,11,11
+56,commutebike,Used bike to commute within last year,,,12,12
+57,commutewalk,Walked to commute within last year,,,13,13
+58,commutenonmotor,Used other non-motorized transport to commute within last year,,,14,14
+59,telecommute,Telecommuted within last year,,,15,15
+60,reason,Primary reason for being a customer here,,,16,16
+61,polview,Political outlook,,,17,17
+62,polparty,Political party membership,,,18,18
+63,polcontrib,Political contributions,,,19,19
+64,vote,Voted in last election,,,20,20
+65,card,Primary credit card,,,21,21
+66,cardtype,Designation of primary credit card,,,22,22
+67,cardbenefit,Benefit program for primary credit card,,,23,23
+68,cardfee,Annual fee for primary credit card,,,24,24
+69,cardtenure,Years held primary credit card,,,25,25
+70,cardtenurecat,Years held primary credit card,,,26,26
+71,card2,Secondary credit card,,,27,27
+72,card2type,Designation of secondary credit card,,,28,28
+73,card2benefit,Benefit program for secondary credit card,,,29,29
+74,card2fee,Annual fee for secondary credit card,,,30,30
+75,card2tenure,Years held secondary credit card,,,31,31
+76,card2tenurecat,Years held secondary credit card,,,32,32
+77,carditems,Number of items on primary card last month,,,33,33
+78,cardspent,Amount spent on primary card last month,,,34,34
+79,card2items,Number of items on secondary card last month,,,35,35
+80,card2spent,Amount spent on secondary card last month,,,36,36
+81,active,Active lifestyle,,,37,37
+82,bfast,Preferred breakfast,,,38,38
+83,tenure,Number of months with service,,,39,39
+84,churn,Switched providers within last month,,,40,40
+85,longmon,Long distance last month,,,41,41
+86,lnlongmon,Log-long distance last month,,,42,42
+87,longten,Long distance over tenure,,,43,43
+88,lnlongten,Log-long distance over tenure,,,44,44
+89,tollfree,Toll free service,,,45,45
+90,tollmon,Toll-free last month,,,46,46
+91,lntollmon,Log-toll free last month,,,47,47
+92,tollten,Toll-free over tenure,,,48,48
+93,lntollten,Log-toll free over tenure,,,49,49
+94,equip,Equipment rental,,,51,51
+95,equipmon,Equipment last month,,,52,52
+96,lnequipmon,Log-equipment last month,,empcat,1,Less than 2
+97,equipten,Equipment over tenure,,,2,2 to 5
+98,lnequipten,Log-equipment over tenure,,,3,6 to 10
+99,callcard,Calling card service,,,4,11 to 15
+100,cardmon,Calling card last month,,,5,More than 15
+101,lncardmon,Log-calling card last month,,retire,0,No
+102,cardten,Calling card over tenure,,,1,Yes
+103,lncardten,Log-calling card over tenure,,inccat,1,Under $25
+104,wireless,Wireless service,,,2,$25 - $49
+105,wiremon,Wireless last month,,,3,$50 - $74
+106,lnwiremon,Log-wireless last month,,,4,$75 - $124
+107,wireten,Wireless over tenure,,,5,$125+
+108,lnwireten,Log-wireless over tenure,,default,0,No
+109,multline,Multiple lines,,,1,Yes
+110,voice,Voice mail,,jobsat,1,Highly dissatisfied
+111,pager,Paging service,,,2,Somewhat dissatisfied
+112,internet,Internet,,,3,Neutral
+113,callid,Caller ID,,,4,Somewhat satisfied
+114,callwait,Call waiting,,,5,Highly satisfied
+115,forward,Call forwarding,,marital,0,Unmarried
+116,confer,3-way calling,,,1,Married
+117,ebill,Electronic billing,,spousedcat,-1,Not married
+118,owntv,Owns TV,,,1,Did not complete high school
+119,hourstv,Hours spent watching TV last week,,,2,High school degree
+120,ownvcr,Owns VCR,,,3,Some college
+121,owndvd,Owns DVD player,,,4,College degree
+122,owncd,Owns stereo/CD player,,,5,Post-undergraduate degree
+123,ownpda,Owns PDA,,homeown,0,Rent
+124,ownpc,Owns computer,,,1,Own
+125,ownipod,Owns portable digital audio player,,hometype,1,Single-family
+126,owngame,Owns gaming system,,,2,Multiple-Family
+127,ownfax,Owns fax machine,,,3,Condominium/Townhouse
+128,news,Newspaper subscription,,,4,Mobile Home
+129,response_01,Response to product offer 01,,address,0,0
+130,response_02,Response to product offer 02,,,1,1
+131,response_03,Response to product offer 03,,,2,2
+132,,,,,3,3
+133,,,,,4,4
+134,,,,,5,5
+135,,,,,6,6
+136,,,,,7,7
+137,,,,,8,8
+138,,,,,9,9
+139,,,,,10,10
+140,,,,,11,11
+141,,,,,12,12
+142,,,,,13,13
+143,,,,,14,14
+144,,,,,15,15
+145,,,,,16,16
+146,,,,,17,17
+147,,,,,18,18
+148,,,,,19,19
+149,,,,,20,20
+150,,,,,21,21
+151,,,,,22,22
+152,,,,,23,23
+153,,,,,24,24
+154,,,,,25,25
+155,,,,,26,26
+156,,,,,27,27
+157,,,,,28,28
+158,,,,,29,29
+159,,,,,30,30
+160,,,,,31,31
+161,,,,,32,32
+162,,,,,33,33
+163,,,,,34,34
+164,,,,,35,35
+165,,,,,36,36
+166,,,,,37,37
+167,,,,,38,38
+168,,,,,39,39
+169,,,,,40,40
+170,,,,,41,41
+171,,,,,42,42
+172,,,,,43,43
+173,,,,,44,44
+174,,,,,45,45
+175,,,,,46,46
+176,,,,,47,47
+177,,,,,48,48
+178,,,,,49,49
+179,,,,,50,50
+180,,,,,51,51
+181,,,,,52,52
+182,,,,,53,53
+183,,,,,54,54
+184,,,,,55,55
+185,,,,,57,57
+186,,,,addresscat,1,Less than 3
+187,,,,,2,4 to 7
+188,,,,,3,8 to 15
+189,,,,,4,16 to 25
+190,,,,,5,More than 25
+191,,,,cars,0,0
+192,,,,,1,1
+193,,,,,2,2
+194,,,,,3,3
+195,,,,,4,4
+196,,,,,5,5
+197,,,,,6,6
+198,,,,,7,7
+199,,,,,8,8
+200,,,,carown,-1,
+201,,,,,0,Lease
+202,,,,,1,Own
+203,,,,cartype,-1,
+204,,,,,0,Domestic
+205,,,,,1,Import
+206,,,,carcatvalue,-1,
+207,,,,,1,Economy
+208,,,,,2,Standard
+209,,,,,3,Luxury
+210,,,,carbought,-1,
+211,,,,,0,No
+212,,,,,1,Yes
+213,,,,carbuy,0,No
+214,,,,,1,Yes
+215,,,,commute,1,Car
+216,,,,,2,Motorcycle
+217,,,,,3,Carpool
+218,,,,,4,Bus
+219,,,,,5,Train/Subway
+220,,,,,6,Other public transit
+221,,,,,7,Bicycle
+222,,,,,8,Walk
+223,,,,,9,Other non-motorized transit
+224,,,,,10,Telecommute
+225,,,,commutecat,1,Single occupancy
+226,,,,,2,Multiple occupancy
+227,,,,,3,Public transportation
+228,,,,,4,Non-motorized
+229,,,,,5,Telecommute
+230,,,,commutecar,0,No
+231,,,,,1,Yes
+232,,,,commutemotorcycle,0,No
+233,,,,,1,Yes
+234,,,,commutecarpool,0,No
+235,,,,,1,Yes
+236,,,,commutebus,0,No
+237,,,,,1,Yes
+238,,,,commuterail,0,No
+239,,,,,1,Yes
+240,,,,commutepublic,0,No
+241,,,,,1,Yes
+242,,,,commutebike,0,No
+243,,,,,1,Yes
+244,,,,commutewalk,0,No
+245,,,,,1,Yes
+246,,,,commutenonmotor,0,No
+247,,,,,1,Yes
+248,,,,telecommute,0,No
+249,,,,,1,Yes
+250,,,,reason,1,Prices
+251,,,,,2,Convenience
+252,,,,,3,Service
+253,,,,,4,Other
+254,,,,,8,
+255,,,,,9,No response
+256,,,,polview,1,Extremely liberal
+257,,,,,2,Liberal
+258,,,,,3,Slightly liberal
+259,,,,,4,Moderate
+260,,,,,5,Slightly conservative
+261,,,,,6,Conservative
+262,,,,,7,Extremely conservative
+263,,,,polparty,0,No
+264,,,,,1,Yes
+265,,,,polcontrib,0,No
+266,,,,,1,Yes
+267,,,,vote,0,No
+268,,,,,1,Yes
+269,,,,card,1,American Express
+270,,,,,2,Visa
+271,,,,,3,Mastercard
+272,,,,,4,Discover
+273,,,,,5,Other
+274,,,,cardtype,1,None
+275,,,,,2,Gold
+276,,,,,3,Platinum
+277,,,,,4,Other
+278,,,,cardbenefit,1,None
+279,,,,,2,Cash back
+280,,,,,3,Airline miles
+281,,,,,4,Other
+282,,,,cardfee,0,No
+283,,,,,1,Yes
+284,,,,cardtenure,0,0
+285,,,,,1,1
+286,,,,,2,2
+287,,,,,3,3
+288,,,,,4,4
+289,,,,,5,5
+290,,,,,6,6
+291,,,,,7,7
+292,,,,,8,8
+293,,,,,9,9
+294,,,,,10,10
+295,,,,,11,11
+296,,,,,12,12
+297,,,,,13,13
+298,,,,,14,14
+299,,,,,15,15
+300,,,,,16,16
+301,,,,,17,17
+302,,,,,18,18
+303,,,,,19,19
+304,,,,,20,20
+305,,,,,21,21
+306,,,,,22,22
+307,,,,,23,23
+308,,,,,24,24
+309,,,,,25,25
+310,,,,,26,26
+311,,,,,27,27
+312,,,,,28,28
+313,,,,,29,29
+314,,,,,30,30
+315,,,,,31,31
+316,,,,,32,32
+317,,,,,33,33
+318,,,,,34,34
+319,,,,,35,35
+320,,,,,36,36
+321,,,,,37,37
+322,,,,,38,38
+323,,,,,39,39
+324,,,,,40,40
+325,,,,cardtenurecat,1,Less than 2
+326,,,,,2,2 to 5
+327,,,,,3,6 to 10
+328,,,,,4,11 to 15
+329,,,,,5,More than 15
+330,,,,card2,1,American Express
+331,,,,,2,Visa
+332,,,,,3,Mastercard
+333,,,,,4,Discover
+334,,,,,5,Other
+335,,,,card2type,1,None
+336,,,,,2,Gold
+337,,,,,3,Platinum
+338,,,,,4,Other
+339,,,,card2benefit,1,None
+340,,,,,2,Cash back
+341,,,,,3,Airline miles
+342,,,,,4,Other
+343,,,,card2fee,0,No
+344,,,,,1,Yes
+345,,,,card2tenure,0,0
+346,,,,,1,1
+347,,,,,2,2
+348,,,,,3,3
+349,,,,,4,4
+350,,,,,5,5
+351,,,,,6,6
+352,,,,,7,7
+353,,,,,8,8
+354,,,,,9,9
+355,,,,,10,10
+356,,,,,11,11
+357,,,,,12,12
+358,,,,,13,13
+359,,,,,14,14
+360,,,,,15,15
+361,,,,,16,16
+362,,,,,17,17
+363,,,,,18,18
+364,,,,,19,19
+365,,,,,20,20
+366,,,,,21,21
+367,,,,,22,22
+368,,,,,23,23
+369,,,,,24,24
+370,,,,,25,25
+371,,,,,26,26
+372,,,,,27,27
+373,,,,,28,28
+374,,,,,29,29
+375,,,,,30,30
+376,,,,card2tenurecat,1,Less than 2
+377,,,,,2,2 to 5
+378,,,,,3,6 to 10
+379,,,,,4,11 to 15
+380,,,,,5,More than 15
+381,,,,active,0,No
+382,,,,,1,Yes
+383,,,,bfast,1,Energy bar
+384,,,,,2,Oatmeal
+385,,,,,3,Cereal
+386,,,,churn,0,No
+387,,,,,1,Yes
+388,,,,tollfree,0,No
+389,,,,,1,Yes
+390,,,,equip,0,No
+391,,,,,1,Yes
+392,,,,callcard,0,No
+393,,,,,1,Yes
+394,,,,wireless,0,No
+395,,,,,1,Yes
+396,,,,multline,0,No
+397,,,,,1,Yes
+398,,,,voice,0,No
+399,,,,,1,Yes
+400,,,,pager,0,No
+401,,,,,1,Yes
+402,,,,internet,0,None
+403,,,,,1,Dial-up
+404,,,,,2,DSL
+405,,,,,3,Cable modem
+406,,,,,4,Other
+407,,,,callid,0,No
+408,,,,,1,Yes
+409,,,,callwait,0,No
+410,,,,,1,Yes
+411,,,,forward,0,No
+412,,,,,1,Yes
+413,,,,confer,0,No
+414,,,,,1,Yes
+415,,,,ebill,0,No
+416,,,,,1,Yes
+417,,,,owntv,0,No
+418,,,,,1,Yes
+419,,,,ownvcr,0,No
+420,,,,,1,Yes
+421,,,,owndvd,0,No
+422,,,,,1,Yes
+423,,,,owncd,0,No
+424,,,,,1,Yes
+425,,,,ownpda,0,No
+426,,,,,1,Yes
+427,,,,ownpc,0,No
+428,,,,,1,Yes
+429,,,,ownipod,0,No
+430,,,,,1,Yes
+431,,,,owngame,0,No
+432,,,,,1,Yes
+433,,,,ownfax,0,No
+434,,,,,1,Yes
+435,,,,news,0,No
+436,,,,,1,Yes
+437,,,,response_01,0,No
+438,,,,,1,Yes
+439,,,,response_02,0,No
+440,,,,,1,Yes
+441,,,,response_03,0,No
+442,,,,,1,Yes
